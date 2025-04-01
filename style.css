@@ -1,0 +1,60 @@
+head {
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+body {
+  background-color: hsl(331, 30%, 80%);
+}
+.container {
+  width: 90%; /* Use a percentage to make the width responsive */
+  max-width: 600px; /* Limit the maximum width */
+  height: auto; /* Let the height adjust based on content */
+  margin: 3em auto; /* Center the container */
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 7px;
+  padding: 1em; /* Add padding for better spacing inside the container */
+}
+.recipe-image {
+  width: 100%; /* Use a percentage to make the width responsive */
+  max-width: 600px; /* Limit the maximum width */
+  height: auto;
+  margin: 1.2em AUTO;
+  border-radius: 7px;
+}
+fieldset {
+  margin: 1.2em auto;
+  border: none;
+}
+.prepcontainer {
+  width: 100%; /* Use a percentage to make the width responsive */
+  max-width: 520px; /* Limit the maximum width */
+  background-color: hsla(332, 29%, 80%, 0.384);
+  border-radius: 7px;
+  margin-left: 2em;
+}
+.prep-time-box h3 {
+  color: #8a2c52; /* Dark pink text */
+  margin-bottom: 10px;
+}
+.bold {
+  font-weight: bold;
+}
+.prepcontainer ul {
+  list-style-type: disc; /* Ensures bullet points are visible */
+  list-style-position: outside; /* Keeps the bullet outside the text */
+  padding-left: 50px; /* Adds space from the box edge */
+}
+.prepcontainer ul li {
+  font-size: 16px;
+  margin: 15px 0;
+  padding-left: 15px; /* Adds space between bullet and text */
+}
+.prepcontainer h3 {
+  color: #8a2c52; /* Dark pink text */
+  margin-bottom: 10px;
+}
